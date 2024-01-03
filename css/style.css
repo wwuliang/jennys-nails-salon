@@ -35,16 +35,17 @@ h1, h2, h3, h4, h5,
 }
 
 .site-navbar-light {
-  background: transparent !important;
+  background: #fff !important;
   position: absolute;
   left: 0;
   right: 0;
   z-index: 3;
+  height: 60px;
 }
 
 @media screen and (max-width: 991px) {
   .site-navbar-light {
-    background: #000 !important;
+    background: #fff !important;
     top: 0;
     position: relative;
   }
@@ -105,7 +106,7 @@ h1, h2, h3, h4, h5,
 
 .site-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: #000 !important; /* Change this to black or any color that contrasts with white */
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -180,6 +181,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   text-transform: uppercase;
   letter-spacing: .1em;
+  color: #000 !important;
 }
 
 
